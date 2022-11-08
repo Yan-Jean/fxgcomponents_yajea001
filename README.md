@@ -2,38 +2,38 @@ Composants REACT
 Implémentation d'une bibliothèque de 10 composants REACT réutilisable à l'aide des frameworks Antd et Material-UI.
 
 Liste des composants
-Alerte
-Avatar
-Bouton
-Carte
-ChampTexte
-Etape
-LoadSpin
-MenuDeroulant
-Popup
-Resultat
-Extra
-Collection
-Détails des composants
+- Alerte
+- Avatar
+- Bouton
+- Carte
+- ChampTexte
+- Etape
+- LoadSpin
+- MenuDeroulant
+- Popup
+- Resultat
+- Extra
+- Collection
+- Détails des composants
 
-#### Alerte
+### Alerte
 
 - Succès : Applique la couleur et le texte de l'alerte succès.
 - Avertissement : Applique la couleur et le texte de l'alerte avertissement.
 - Erreur : Applique la couleur et le texte de l'alerte erreur.
-###### Exemple d'utilisation:
+##### Exemple d'utilisation:
 
 <Alerte
   message="Vous avez réussi à créer votre alerte!!!"
   type="success"
 />
 
-#### Avatar
+### Avatar
 
-Petit : La taille de l'avatar sera petite.
-Moyen : La taille de l'avatar sera moyenne.
-Grand : La taille de l'avatar sera grande.
-###### Exemple d'utilisation:
+- Petit : La taille de l'avatar sera petite.
+- Moyen : La taille de l'avatar sera moyenne.
+- Grand : La taille de l'avatar sera grande.
+##### Exemple d'utilisation:
 
 <Avatars
   alt="Roger"
@@ -42,12 +42,12 @@ Grand : La taille de l'avatar sera grande.
   width={24}
 />
 
-#### Bouton
+### Bouton
 
-Start : Applique l'aspect visuel du bouton Start.
-Eject : Applique l'aspect visuel du bouton Eject.
-Destroy Applique l'aspect visuel du bouton Auto Destroy.
-###### Exemple d'utilisation:
+- Start : Applique l'aspect visuel du bouton Start.
+- Eject : Applique l'aspect visuel du bouton Eject.
+- Destroy Applique l'aspect visuel du bouton Auto Destroy.
+##### Exemple d'utilisation:
 
 <Bouton
   type="danger"
@@ -60,12 +60,12 @@ Destroy Applique l'aspect visuel du bouton Auto Destroy.
   width={80}
 />
 
-#### Carte
+### Carte
 
-Default : Carte par défaut.
-DarkMode : Active le "DarkMode".
-Hoverable : Change l'aspect visuel de la carte pour qu'elle soit "hoverable".
-###### Exemple d'utilisation:
+- Default : Carte par défaut.
+- DarkMode : Active le "DarkMode".
+- Hoverable : Change l'aspect visuel de la carte pour qu'elle soit "hoverable".
+##### Exemple d'utilisation:
 
 <Carte
   width={250}
@@ -75,10 +75,10 @@ Hoverable : Change l'aspect visuel de la carte pour qu'elle soit "hoverable".
 
 #### ChampTexte
 
-Contour : Ajoute à l'aspect visuel du champ un contour bleu.
-Attention : Ajoute à l'aspect visuel du champ un avertissement.
-Succes : Ajoute à l'aspect visuel du champ un encadré succès.
-###### Exemple d'utilisation:
+- Contour : Ajoute à l'aspect visuel du champ un contour bleu.
+- Attention : Ajoute à l'aspect visuel du champ un avertissement.
+- Succes : Ajoute à l'aspect visuel du champ un encadré succès.
+##### Exemple d'utilisation:
 
 <ChampTexte
   label="Nom"
@@ -87,12 +87,12 @@ Succes : Ajoute à l'aspect visuel du champ un encadré succès.
   helperText=""
 />
 
-#### Etape
+### Etape
 
-Attente : L'étape est au niveau attente.
-Chargement : L'étape est au niveau chargement.
-Termine : Toute les étapes sont terminées.
-###### Exemple d'utilisation:
+- Attente : L'étape est au niveau attente.
+- Chargement : L'étape est au niveau chargement.
+- Termine : Toute les étapes sont terminées.
+##### Exemple d'utilisation:
 
 <Etape
   current="1"
@@ -105,23 +105,23 @@ Termine : Toute les étapes sont terminées.
   description3=""  
 />
 
-#### LoadSpin
+### LoadSpin
 
-Small : L'icône de chargement est petit.
-Medium : L'icône de chargement est moyen.
-Large :  L'icône de chargement est grand.
-###### Exemple d'utilisation:
+- Small : L'icône de chargement est petit.
+- Medium : L'icône de chargement est moyen.
+- Large :  L'icône de chargement est grand.
+##### Exemple d'utilisation:
 
 <LoadSpin 
   size="small" 
 />
 
-####MenuDeroulant
+### MenuDeroulant
 
-BottomLeft : Menu en bas à gauche.
-Bottom : Menu en bas au milieu.
-Right : Menu à droite.
-###### Exemple d'utilisation:
+- BottomLeft : Menu en bas à gauche.
+- Bottom : Menu en bas au milieu.
+- Right : Menu à droite.
+##### Exemple d'utilisation:
 
 <MenuDeroulant
   item1="Hot-Dog"
@@ -130,21 +130,21 @@ Right : Menu à droite.
   placement="bottomLeft"
 />
 
-#### Popup
+### Popup
 
-Basic : Fênetre modale de base.
-Centered : Fênetre modale centré.
-Warning : Fênetre modale d'alerte.
-###### Exemple d'utilisation:
+- Basic : Fênetre modale de base.
+- Centered : Fênetre modale centré.
+- Warning : Fênetre modale d'alerte.
+##### Exemple d'utilisation:
 
 <PopUp title="Basic modal" />
 
-#### Resultat
+### Resultat
 
-Succes : Affiche la couleur, le logo et le texte pour un succès.
-Probleme : Affiche la couleur, le logo et le texte pour un avertissement.
-Erreur : Affiche la couleur, le logo et le texte pour une erreur.
-###### Exemple d'utilisation:
+- Succes : Affiche la couleur, le logo et le texte pour un succès.
+- Probleme : Affiche la couleur, le logo et le texte pour un avertissement.
+- Erreur : Affiche la couleur, le logo et le texte pour une erreur.
+##### Exemple d'utilisation:
 
 <Resultats
   status="success"
