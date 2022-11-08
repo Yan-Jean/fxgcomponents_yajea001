@@ -1,6 +1,6 @@
 {
   "name": "component-library-fxgarneau",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "420-314-A22-FX - Exemple",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
