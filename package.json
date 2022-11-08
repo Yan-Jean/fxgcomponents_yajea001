@@ -10,7 +10,7 @@
     "build-storybook": "build-storybook",
     "build-lib": "rollup -c"
   },
-  "author": "Yannick Jean",
+  "author": "Pierre-Luc Dubé",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.7",
