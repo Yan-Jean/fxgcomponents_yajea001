@@ -34,7 +34,7 @@ jobs:
             **/node_modules/**
 
   web-deploy:
-    name: Deploy
+    name: deploy
     runs-on: ubuntu-latest
     steps:
     - name: Get latest code
