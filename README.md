@@ -16,9 +16,9 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
 - Collection
 - Détails des composants
 
-### Alerte
+## - Alerte
 
-- Succès : Applique la couleur et le texte de l'alerte succès.
+- Succes : Applique la couleur et le texte de l'alerte succès.
 - Avertissement : Applique la couleur et le texte de l'alerte avertissement.
 - Erreur : Applique la couleur et le texte de l'alerte erreur.
 ##### Exemple d'utilisation:
@@ -30,7 +30,7 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
 />
 ```
 
-### Avatar
+## - Avatar
 
 - Petit : La taille de l'avatar sera petite.
 - Moyen : La taille de l'avatar sera moyenne.
@@ -46,7 +46,7 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
 />
 ```
 
-### Bouton
+## - Bouton
 
 - Start : Applique l'aspect visuel du bouton Start.
 - Eject : Applique l'aspect visuel du bouton Eject.
@@ -66,7 +66,7 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
 />
 ```
 
-### Carte
+## - Carte
 
 - Default : Carte par défaut.
 - DarkMode : Active le "DarkMode".
@@ -80,7 +80,7 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
   description="www.tinder.com" 
 />
 ```
-#### ChampTexte
+## - ChampTexte
 
 - Contour : Ajoute à l'aspect visuel du champ un contour bleu.
 - Attention : Ajoute à l'aspect visuel du champ un avertissement.
@@ -96,7 +96,7 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
 />
 ```
 
-### Etape
+## - Etape
 
 - Attente : L'étape est au niveau attente.
 - Chargement : L'étape est au niveau chargement.
@@ -115,7 +115,7 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
   description3=""  
 />
 ```
-### LoadSpin
+## - LoadSpin
 
 - Small : L'icône de chargement est petit.
 - Medium : L'icône de chargement est moyen.
@@ -128,7 +128,7 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
 />
 ```
 
-### MenuDeroulant
+## - MenuDeroulant
 
 - BottomLeft : Menu en bas à gauche.
 - Bottom : Menu en bas au milieu.
@@ -144,7 +144,7 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
 />
 ```
 
-### Popup
+## - Popup
 
 - Basic : Fênetre modale de base.
 - Centered : Fênetre modale centré.
@@ -157,7 +157,7 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
 />
 ```
 
-### Resultat
+## - Resultat
 
 - Succes : Affiche la couleur, le logo et le texte pour un succès.
 - Probleme : Affiche la couleur, le logo et le texte pour un avertissement.
