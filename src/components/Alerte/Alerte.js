@@ -9,5 +9,4 @@ export const Alerte = ({message, type}) => {
 Alerte.propTypes = {
     message: PropTypes.string,
     type: PropTypes.string,
-    width: PropTypes.string //test version to remove after
 };
