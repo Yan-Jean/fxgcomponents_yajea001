@@ -1,7 +1,7 @@
 {
   "name": "component-library-fxgarneau",
   "version": "1.0.12",
-  "description": "420-314-A22-FX - Exemple",
+  "description": "React components",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "build-lib": "rollup -c"
   },
   "author": "Yannick Jean",
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-react": "^7.16.7",
