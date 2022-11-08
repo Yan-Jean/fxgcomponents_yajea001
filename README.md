@@ -1,7 +1,7 @@
-Composants REACT
+# Composants REACT
 Implémentation d'une bibliothèque de 10 composants REACT réutilisable à l'aide des frameworks Antd et Material-UI.
 
-Liste des composants
+## Liste des composants
 - Alerte
 - Avatar
 - Bouton
@@ -23,10 +23,12 @@ Liste des composants
 - Erreur : Applique la couleur et le texte de l'alerte erreur.
 ##### Exemple d'utilisation:
 
+```sh
 <Alerte
   message="Vous avez réussi à créer votre alerte!!!"
   type="success"
 />
+```
 
 ### Avatar
 
@@ -35,12 +37,14 @@ Liste des composants
 - Grand : La taille de l'avatar sera grande.
 ##### Exemple d'utilisation:
 
+```sh
 <Avatars
   alt="Roger"
   src="assets/img/macareux.jpg"
   height={24}
   width={24}
 />
+```
 
 ### Bouton
 
@@ -49,6 +53,7 @@ Liste des composants
 - Destroy Applique l'aspect visuel du bouton Auto Destroy.
 ##### Exemple d'utilisation:
 
+```sh
 <Bouton
   type="danger"
   shape="default"
@@ -59,6 +64,7 @@ Liste des composants
   height={80}
   width={80}
 />
+```
 
 ### Carte
 
@@ -67,12 +73,13 @@ Liste des composants
 - Hoverable : Change l'aspect visuel de la carte pour qu'elle soit "hoverable".
 ##### Exemple d'utilisation:
 
+```sh
 <Carte
   width={250}
   title="European cool girl" 
   description="www.tinder.com" 
 />
-
+```
 #### ChampTexte
 
 - Contour : Ajoute à l'aspect visuel du champ un contour bleu.
@@ -80,12 +87,14 @@ Liste des composants
 - Succes : Ajoute à l'aspect visuel du champ un encadré succès.
 ##### Exemple d'utilisation:
 
+```sh
 <ChampTexte
   label="Nom"
   color="primary"
   defaultValue=""
   helperText=""
 />
+```
 
 ### Etape
 
@@ -94,6 +103,7 @@ Liste des composants
 - Termine : Toute les étapes sont terminées.
 ##### Exemple d'utilisation:
 
+```sh
 <Etape
   current="1"
   labelPlacement="vertical"
@@ -104,7 +114,7 @@ Liste des composants
   description2=""
   description3=""  
 />
-
+```
 ### LoadSpin
 
 - Small : L'icône de chargement est petit.
@@ -112,9 +122,11 @@ Liste des composants
 - Large :  L'icône de chargement est grand.
 ##### Exemple d'utilisation:
 
+```sh
 <LoadSpin 
   size="small" 
 />
+```
 
 ### MenuDeroulant
 
@@ -123,12 +135,14 @@ Liste des composants
 - Right : Menu à droite.
 ##### Exemple d'utilisation:
 
+```sh
 <MenuDeroulant
   item1="Hot-Dog"
   item2="Poutine"
   item3="Hamburger"
   placement="bottomLeft"
 />
+```
 
 ### Popup
 
@@ -137,7 +151,11 @@ Liste des composants
 - Warning : Fênetre modale d'alerte.
 ##### Exemple d'utilisation:
 
-<PopUp title="Basic modal" />
+```sh
+<PopUp
+  title="Basic modal" 
+/>
+```
 
 ### Resultat
 
@@ -146,6 +164,7 @@ Liste des composants
 - Erreur : Affiche la couleur, le logo et le texte pour une erreur.
 ##### Exemple d'utilisation:
 
+```sh
 <Resultats
   status="success"
   title="Votre achat a été complété avec succès!"
@@ -153,13 +172,17 @@ Liste des composants
   type="primary"  
   key="console"  
 />
+```
 
 Pour démarrer le projet dans le terminal:
 
+```sh
 yarn install
 yarn storybook
-
+```
 ou
 
+```sh
 npm install
 npm run storybook
+```
