@@ -80,7 +80,7 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
   description="www.tinder.com" 
 />
 ```
-#### ChampTexte
+## - ChampTexte
 
 - Contour : Ajoute à l'aspect visuel du champ un contour bleu.
 - Attention : Ajoute à l'aspect visuel du champ un avertissement.
