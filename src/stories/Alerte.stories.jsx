@@ -8,7 +8,7 @@ export default {
   component: Alerte
 };
 
-const Template = (args) => <Alerte {...args} />;
+//const Template = (args) => <Alerte {...args} />;
 
 export const Succes = Template.bind({});
 Succes.args = {
@@ -27,4 +27,3 @@ Erreur.args = {
   message: "Erreur!",
   type: "error"
 };
-
