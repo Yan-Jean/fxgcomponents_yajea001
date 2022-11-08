@@ -50,7 +50,7 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
 
 - Start : Applique l'aspect visuel du bouton Start.
 - Eject : Applique l'aspect visuel du bouton Eject.
-- Destroy Applique l'aspect visuel du bouton Auto Destroy.
+- Destroy : Applique l'aspect visuel du bouton Auto Destroy.
 ##### Exemple d'utilisation:
 
 ```sh
