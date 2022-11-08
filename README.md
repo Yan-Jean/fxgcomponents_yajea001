@@ -14,9 +14,6 @@ Une collaboration de Samuel Demers et Yannick Jean.
 - MenuDeroulant
 - Popup
 - Resultat
-- Extra
-- Collection
-- Détails des composants
 
 ## - Alerte
 
