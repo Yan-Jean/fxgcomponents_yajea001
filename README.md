@@ -1,5 +1,7 @@
 # Composantes REACT
-Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'aide des frameworks Antd et Material-UI.
+Implémentation d'une bibliothèque REACT de 10 composantes à l'aide des frameworks Antd et Material-UI.
+Une collaboration de Samuel Demers et Yannick Jean.
+
 
 ## Liste des composantes
 - Alerte
