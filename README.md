@@ -40,9 +40,9 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
 ```sh
 <Avatars
   alt="Roger"
-  src="assets/img/macareux.jpg"
-  height={24}
+  src="assets/img/Roger.jpg"
   width={24}
+  height={24} 
 />
 ```
 
@@ -55,14 +55,13 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
 
 ```sh
 <Bouton
-  type="danger"
-  shape="default"
-  text1="AUTO"
-  text2="DESTROY"
-  color="red"
+  type="primary"
+  shape="circle"
+  text1="START"
+  color="green"
   borderColor="black"
-  height={80}
-  width={80}
+  height={45}
+  width={50}
 />
 ```
 
