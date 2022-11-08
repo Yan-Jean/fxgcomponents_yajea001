@@ -1,7 +1,6 @@
 name: NPM Version Manager
 
-on:
-  push:
+on:push:
     branches:
       - main
 
