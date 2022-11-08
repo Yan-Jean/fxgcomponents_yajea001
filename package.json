@@ -1,6 +1,6 @@
 {
   "name": "fxgcomponents_yajea001",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "React components",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
