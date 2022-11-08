@@ -32,4 +32,25 @@ jobs:
           exclude: |
             **/.storybook/**
             **/node_modules/**
-      
+
+  web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v2
+
+    - name: Build Project
+      run: |
+        yarn install
+        yarn build-strorybook
+
+    - name: Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      with: 
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: ./storybook-static/
+        server-dir: public_html/storybook/
+              
