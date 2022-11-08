@@ -17,9 +17,9 @@ Une collaboration de Samuel Demers et Yannick Jean.
 
 ## - Alerte
 
-- Succes : Applique la couleur et le texte de l'alerte succès.
-- Avertissement : Applique la couleur et le texte de l'alerte avertissement.
-- Erreur : Applique la couleur et le texte de l'alerte erreur.
+- Succes : Applique les paramètres de l'alerte succès.
+- Avertissement : Applique les paramètres de l'alerte avertissement.
+- Erreur : Applique les paramètres de l'alerte erreur.
 ##### Exemple d'utilisation:
 
 ```sh
@@ -68,7 +68,7 @@ Une collaboration de Samuel Demers et Yannick Jean.
 
 - Default : Carte par défaut.
 - DarkMode : Active le "DarkMode".
-- Hoverable : Change l'aspect visuel de la carte pour qu'elle soit "hoverable".
+- Hoverable : Effet visuel "hoverable".
 ##### Exemple d'utilisation:
 
 ```sh
@@ -98,7 +98,7 @@ Une collaboration de Samuel Demers et Yannick Jean.
 
 - Attente : L'étape est au niveau attente.
 - Chargement : L'étape est au niveau chargement.
-- Termine : Toute les étapes sont terminées.
+- Termine : Toutes les étapes sont terminées.
 ##### Exemple d'utilisation:
 
 ```sh
@@ -157,9 +157,9 @@ Une collaboration de Samuel Demers et Yannick Jean.
 
 ## - Resultat
 
-- Succes : Affiche la couleur, le logo et le texte pour un succès.
-- Probleme : Affiche la couleur, le logo et le texte pour un avertissement.
-- Erreur : Affiche la couleur, le logo et le texte pour une erreur.
+- Succes : Affiche la couleur, l'icône et le texte pour un succès.
+- Probleme : Affiche la couleur, l'icône et le texte pour un avertissement.
+- Erreur : Affiche la couleur, l'icône et le texte pour une erreur.
 ##### Exemple d'utilisation:
 
 ```sh
