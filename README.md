@@ -16,7 +16,7 @@ Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'a
 - Collection
 - Détails des composants
 
-### Alerte
+### - Alerte
 
 - Succès : Applique la couleur et le texte de l'alerte succès.
 - Avertissement : Applique la couleur et le texte de l'alerte avertissement.
