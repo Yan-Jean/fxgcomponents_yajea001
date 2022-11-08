@@ -1,7 +1,7 @@
-# Composants REACT
-Implémentation d'une bibliothèque de 10 composants REACT réutilisable à l'aide des frameworks Antd et Material-UI.
+# Composantes REACT
+Implémentation d'une bibliothèque de 10 composantes REACT réutilisable à l'aide des frameworks Antd et Material-UI.
 
-## Liste des composants
+## Liste des composantes
 - Alerte
 - Avatar
 - Bouton
