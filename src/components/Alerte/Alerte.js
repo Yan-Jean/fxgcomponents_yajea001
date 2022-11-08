@@ -9,4 +9,5 @@ export const Alerte = ({message, type}) => {
 Alerte.propTypes = {
     message: PropTypes.string,
     type: PropTypes.string,
+    color: PropTypes.string,
 };
