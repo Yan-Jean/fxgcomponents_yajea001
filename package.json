@@ -10,7 +10,7 @@
     "build-storybook": "build-storybook",
     "build-lib": "rollup -c"
   },
-  "author": "Pierre-Luc Dubé",
+  "author": "Yannick Jean",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.16.7",
@@ -41,5 +41,13 @@
     "@mui/material": "^5.10.9",
     "@storybook/addon-docs": "^6.4.10",
     "antd": "^4.18.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yan-Jean/fxgcomponents_yajea001.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yan-Jean/fxgcomponents_yajea001/issues"
+  },
+  "homepage": "https://github.com/Yan-Jean/fxgcomponents_yajea001#readme"
 }
