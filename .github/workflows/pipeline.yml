@@ -43,7 +43,7 @@ jobs:
     - name: Build Project
       run: |
         yarn install
-        yarn build-strorybook
+        yarn build-storybook
 
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
@@ -53,4 +53,4 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./storybook-static/
         server-dir: public_html/storybook/
-              
+
